@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CaptchaPod_Example' do
+  pod 'CaptchaPod', :path => '../'
+
+  target 'CaptchaPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
