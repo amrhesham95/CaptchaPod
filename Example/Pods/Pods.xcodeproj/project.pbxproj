@@ -14,9 +14,11 @@
 		78FDC135E63CBED2883B38FF29C2EF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		85878CF16DA07E41EAE113F01A003320 /* CaptchaPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B76396C7BCD4CA4117DCE94F7A1622CD /* CaptchaPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F5B0E49DA5A76C09ECE9AB1BEFAA6EC /* Pods-CaptchaPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C2190AD4E4458AA2D092CA7482B80B /* Pods-CaptchaPod_Example-dummy.m */; };
-		B8A90CBDD9BCB6E27264B89C51602F97 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763196ACE2188C72D8423232FCC4BCC8 /* ReplaceMe.swift */; };
 		BC4D9EA2C1B4A3EDFDA83125AF279B48 /* CaptchaPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A2C68E4154718E6D5DFFF8276D893 /* CaptchaPod-dummy.m */; };
 		E7759C4E7B008F4DF7E965D110AB5A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EFC30F7B2493F7E000F1DBAE /* CaptchaPodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30F7A2493F7E000F1DBAE /* CaptchaPodMain.swift */; };
+		EFC30F7D2493FC8200F1DBAE /* CaptchaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC30F7C2493FC8200F1DBAE /* CaptchaView.xib */; };
+		EFC30F7F2493FCA000F1DBAE /* CaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30F7E2493FCA000F1DBAE /* CaptchaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C93194ED04C963E3754CAD3D51659C /* Pods_CaptchaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CaptchaPod_Tests.framework; path = "Pods-CaptchaPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C93194ED04C963E3754CAD3D51659C /* Pods_CaptchaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptchaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13289CC5EC1AACAB8FC80577EA513503 /* Pods-CaptchaPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptchaPod_Example-Info.plist"; sourceTree = "<group>"; };
 		13FCB77E6832778E1B29BC3E956A4905 /* Pods-CaptchaPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptchaPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A1D056B5EBBF1E09B60DB501CE7E421 /* CaptchaPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptchaPod-prefix.pch"; sourceTree = "<group>"; };
@@ -46,28 +48,30 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FB3B30862BD156A159681C4624B4882 /* CaptchaPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaptchaPod.xcconfig; sourceTree = "<group>"; };
 		419F86286D0246144BB32FF7F1EAAD85 /* Pods-CaptchaPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CaptchaPod_Example.modulemap"; sourceTree = "<group>"; };
-		61BA175CF1D3EDD7989E213891A732DC /* CaptchaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CaptchaPod.framework; path = CaptchaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BA175CF1D3EDD7989E213891A732DC /* CaptchaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaptchaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DF64311295846DEE0459B804D0DFD6 /* Pods-CaptchaPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CaptchaPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6DBE53B4DD889055BA8812F5C187B2DC /* CaptchaPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CaptchaPod-Info.plist"; sourceTree = "<group>"; };
-		763196ACE2188C72D8423232FCC4BCC8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CaptchaPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7F8A2C68E4154718E6D5DFFF8276D893 /* CaptchaPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaptchaPod-dummy.m"; sourceTree = "<group>"; };
 		82C2190AD4E4458AA2D092CA7482B80B /* Pods-CaptchaPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptchaPod_Example-dummy.m"; sourceTree = "<group>"; };
 		8FC52D6F7894911CC0E00F7A9E70FA9B /* Pods-CaptchaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptchaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D93B3D343892CF5AF30BFE25D61BC6F /* Pods_CaptchaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CaptchaPod_Example.framework; path = "Pods-CaptchaPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D93B3D343892CF5AF30BFE25D61BC6F /* Pods_CaptchaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptchaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F0A96FD7F54A1D20F8A4F15A248E8BE /* Pods-CaptchaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptchaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A3723FA0E95FE50F5F01720342EF203B /* Pods-CaptchaPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptchaPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		A5E0EB3E3392F82FFBF41A4668E1F161 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A5E0EB3E3392F82FFBF41A4668E1F161 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AF552544C2905FE97D53FF40D24B61B7 /* Pods-CaptchaPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CaptchaPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2BF2D1B7C81D781240A5AEC43D8FF0F /* Pods-CaptchaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CaptchaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B76396C7BCD4CA4117DCE94F7A1622CD /* CaptchaPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaptchaPod-umbrella.h"; sourceTree = "<group>"; };
-		C41CDD731043485C4768AE1D8AD9949B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C41CDD731043485C4768AE1D8AD9949B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA590D58BEB387FA911573CA03182FEC /* CaptchaPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CaptchaPod.modulemap; sourceTree = "<group>"; };
 		CB0CA0EE5724526942DFAE2015125F34 /* Pods-CaptchaPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CaptchaPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		CC327C66528DFC9C08F54A519BAD2005 /* Pods-CaptchaPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptchaPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D88A79927D2DC4FC7F88732F37E0CFC7 /* Pods-CaptchaPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptchaPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC74DB23E3C367DAF6759F8A28266EBE /* Pods-CaptchaPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptchaPod_Tests-Info.plist"; sourceTree = "<group>"; };
-		F5224F843E92F23B007A458109C5B933 /* CaptchaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CaptchaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFC30F7A2493F7E000F1DBAE /* CaptchaPodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CaptchaPodMain.swift; path = CaptchaPod/Classes/CaptchaPodMain.swift; sourceTree = "<group>"; };
+		EFC30F7C2493FC8200F1DBAE /* CaptchaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CaptchaView.xib; path = CaptchaPod/Classes/CaptchaView.xib; sourceTree = "<group>"; };
+		EFC30F7E2493FCA000F1DBAE /* CaptchaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CaptchaView.swift; path = CaptchaPod/Classes/CaptchaView.swift; sourceTree = "<group>"; };
+		F5224F843E92F23B007A458109C5B933 /* CaptchaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CaptchaPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF3D4EC91F691CAC38EE22ED8D6B35EC /* Pods-CaptchaPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptchaPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +119,9 @@
 				F5224F843E92F23B007A458109C5B933 /* CaptchaPod.podspec */,
 				A5E0EB3E3392F82FFBF41A4668E1F161 /* LICENSE */,
 				C41CDD731043485C4768AE1D8AD9949B /* README.md */,
+				EFC30F7A2493F7E000F1DBAE /* CaptchaPodMain.swift */,
+				EFC30F7E2493FCA000F1DBAE /* CaptchaView.swift */,
+				EFC30F7C2493FC8200F1DBAE /* CaptchaView.xib */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -130,7 +137,6 @@
 		4DB10EF195C7693F37721489DA11D293 /* CaptchaPod */ = {
 			isa = PBXGroup;
 			children = (
-				763196ACE2188C72D8423232FCC4BCC8 /* ReplaceMe.swift */,
 				11DEA3E88C6C29BA2F8A7D9446CB19F8 /* Pod */,
 				FFC76A0432E6D47CB6DF66E36B32120F /* Support Files */,
 			);
@@ -315,6 +321,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8FB1A90A56457647992511D705CCB105 = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -348,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC30F7D2493FC8200F1DBAE /* CaptchaView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +377,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC30F7F2493FCA000F1DBAE /* CaptchaView.swift in Sources */,
 				BC4D9EA2C1B4A3EDFDA83125AF279B48 /* CaptchaPod-dummy.m in Sources */,
-				B8A90CBDD9BCB6E27264B89C51602F97 /* ReplaceMe.swift in Sources */,
+				EFC30F7B2493F7E000F1DBAE /* CaptchaPodMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FB3B30862BD156A159681C4624B4882 /* CaptchaPod.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -487,7 +501,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CaptchaPod/CaptchaPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CaptchaPod/CaptchaPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CaptchaPod/CaptchaPod.modulemap";
 				PRODUCT_MODULE_NAME = CaptchaPod;
@@ -540,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FB3B30862BD156A159681C4624B4882 /* CaptchaPod.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -552,7 +567,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CaptchaPod/CaptchaPod-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CaptchaPod/CaptchaPod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CaptchaPod/CaptchaPod.modulemap";
 				PRODUCT_MODULE_NAME = CaptchaPod;
@@ -560,6 +575,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -654,8 +670,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
