@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -23,11 +22,10 @@
             <constraints>
                 <constraint firstItem="Su4-ah-OBz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DZ4-ma-6MA"/>
                 <constraint firstItem="Su4-ah-OBz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HA1-CP-wS1"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Su4-ah-OBz" secondAttribute="trailing" id="e0j-Yp-qUQ"/>
+                <constraint firstAttribute="trailing" secondItem="Su4-ah-OBz" secondAttribute="trailing" id="e0j-Yp-qUQ"/>
                 <constraint firstItem="Su4-ah-OBz" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="oSA-wX-xPX"/>
-                <constraint firstItem="Su4-ah-OBz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="qbq-Ww-zP9"/>
+                <constraint firstItem="Su4-ah-OBz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qbq-Ww-zP9"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="139" y="131"/>
         </view>
     </objects>
