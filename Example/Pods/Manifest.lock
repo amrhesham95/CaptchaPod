@@ -1,0 +1,16 @@
+PODS:
+  - CaptchaPod (0.1.0)
+
+DEPENDENCIES:
+  - CaptchaPod (from `../`)
+
+EXTERNAL SOURCES:
+  CaptchaPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CaptchaPod: 40a4b1d20c85f37351a43b98fc56b392f4d7fc51
+
+PODFILE CHECKSUM: 35ad89da8124ffd33018a96981b213f20dc7bcec
+
+COCOAPODS: 1.8.4

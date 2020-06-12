@@ -1,0 +1,22 @@
+{
+  "name": "CaptchaPod",
+  "version": "0.1.0",
+  "summary": "A short description of CaptchaPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Amr Hesham/CaptchaPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Amr Hesham": "amr.hesham@fawry.com"
+  },
+  "source": {
+    "git": "https://github.com/Amr Hesham/CaptchaPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CaptchaPod/Classes/**/*"
+}

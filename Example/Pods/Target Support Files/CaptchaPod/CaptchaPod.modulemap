@@ -1,0 +1,6 @@
+framework module CaptchaPod {
+  umbrella header "CaptchaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
