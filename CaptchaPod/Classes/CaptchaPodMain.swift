@@ -9,14 +9,14 @@ import Foundation
 import UIKit
 
 extension UIViewController{
-    public  func showCaptchaView(vc:UIViewController){
+    public  func showCaptchaView(captchaView:UIView,delegate:CaptchaDelegate){
         
         let bundle = Bundle(for: CaptchaView.self)
-        let captchaVC = bundle.loadNibNamed("CaptchaView", owner: CaptchaView.self, options: nil)?.first  as! CaptchaView
-         captchaVC.frame = vc.view.frame;
-        vc.view.addSubview(captchaVC)
-        vc.view.bringSubview(toFront: captchaVC)
-        
+        let captchaVC = bundle.loadNibNamed("CaptchaView", owner: nil, options: nil)?.first  as! CaptchaView
+        captchaVC.frame = captchaView.frame;
+        captchaView.addSubview(captchaVC)
+        captchaView.bringSubview(toFront: captchaVC)
+        captchaVC.captchaDelegate = delegate
         
        
        

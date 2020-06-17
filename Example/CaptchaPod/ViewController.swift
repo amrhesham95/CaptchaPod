@@ -8,8 +8,17 @@
 
 import UIKit
 import CaptchaPod
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,CaptchaDelegate{
+    func captchaDidMatch() {
+        print("WOW")
+    }
+    
+    func captchaDidFail() {
+        print("")
+    }
+    
+    @IBOutlet weak var captchaView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,7 +26,8 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        self.showCaptchaView(vc: self)
+        self.showCaptchaView(captchaView: captchaView,delegate:self)
+        
     }
 }
 

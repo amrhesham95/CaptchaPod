@@ -16,6 +16,7 @@
 		9F5B0E49DA5A76C09ECE9AB1BEFAA6EC /* Pods-CaptchaPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C2190AD4E4458AA2D092CA7482B80B /* Pods-CaptchaPod_Example-dummy.m */; };
 		BC4D9EA2C1B4A3EDFDA83125AF279B48 /* CaptchaPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A2C68E4154718E6D5DFFF8276D893 /* CaptchaPod-dummy.m */; };
 		E7759C4E7B008F4DF7E965D110AB5A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF1785C7249AB6CC0049B3BA /* CaptchaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1785C6249AB6CC0049B3BA /* CaptchaDelegate.swift */; };
 		EFC30F7B2493F7E000F1DBAE /* CaptchaPodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30F7A2493F7E000F1DBAE /* CaptchaPodMain.swift */; };
 		EFC30F7D2493FC8200F1DBAE /* CaptchaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC30F7C2493FC8200F1DBAE /* CaptchaView.xib */; };
 		EFC30F7F2493FCA000F1DBAE /* CaptchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30F7E2493FCA000F1DBAE /* CaptchaView.swift */; };
@@ -68,6 +69,7 @@
 		CC327C66528DFC9C08F54A519BAD2005 /* Pods-CaptchaPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptchaPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D88A79927D2DC4FC7F88732F37E0CFC7 /* Pods-CaptchaPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CaptchaPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC74DB23E3C367DAF6759F8A28266EBE /* Pods-CaptchaPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CaptchaPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		EF1785C6249AB6CC0049B3BA /* CaptchaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptchaDelegate.swift; sourceTree = "<group>"; };
 		EFC30F7A2493F7E000F1DBAE /* CaptchaPodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CaptchaPodMain.swift; path = CaptchaPod/Classes/CaptchaPodMain.swift; sourceTree = "<group>"; };
 		EFC30F7C2493FC8200F1DBAE /* CaptchaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CaptchaView.xib; path = CaptchaPod/Classes/CaptchaView.xib; sourceTree = "<group>"; };
 		EFC30F7E2493FCA000F1DBAE /* CaptchaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CaptchaView.swift; path = CaptchaPod/Classes/CaptchaView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				C41CDD731043485C4768AE1D8AD9949B /* README.md */,
 				EFC30F7A2493F7E000F1DBAE /* CaptchaPodMain.swift */,
 				EFC30F7E2493FCA000F1DBAE /* CaptchaView.swift */,
+				EF1785C6249AB6CC0049B3BA /* CaptchaDelegate.swift */,
 				EFC30F7C2493FC8200F1DBAE /* CaptchaView.xib */,
 			);
 			name = Pod;
@@ -380,6 +383,7 @@
 				EFC30F7F2493FCA000F1DBAE /* CaptchaView.swift in Sources */,
 				BC4D9EA2C1B4A3EDFDA83125AF279B48 /* CaptchaPod-dummy.m in Sources */,
 				EFC30F7B2493F7E000F1DBAE /* CaptchaPodMain.swift in Sources */,
+				EF1785C7249AB6CC0049B3BA /* CaptchaDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
