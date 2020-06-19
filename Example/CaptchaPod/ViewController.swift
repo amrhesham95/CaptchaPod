@@ -6,6 +6,14 @@
 //  Copyright (c) 2020 Amr Hesham. All rights reserved.
 //
 
+// ****** THIS IS AN EXAMPLE OF HOW TO USE THE POD *******
+
+/*
+- make an UIVIEW in your nib file or story board
+- drag an outlet of it to your controller
+- make your controller confrom the CaptchaDelegate
+- confrom the two methods that handles the cases of matching captcha or mismatching
+*/
 import UIKit
 import CaptchaPod
 class ViewController: UIViewController,CaptchaDelegate{
