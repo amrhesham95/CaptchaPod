@@ -26,7 +26,7 @@ class ViewController: UIViewController,CaptchaDelegate{
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        self.showCaptchaView(captchaView: captchaView,delegate:self)
+        self.showCaptchaView(captchaView: captchaView, textFieldPlaceHolder: "Enter captcha here", buttonTitle: "SUBMIT", delegate: self)
         
     }
 }
