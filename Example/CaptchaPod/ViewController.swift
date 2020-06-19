@@ -18,11 +18,15 @@ import UIKit
 import CaptchaPod
 class ViewController: UIViewController,CaptchaDelegate{
     func captchaDidMatch() {
-        print("WOW")
+        let ac = UIAlertController(title: "Verified!", message: "you have entered the right captcha!", preferredStyle: .alert)
+         ac.addAction(UIAlertAction(title: "Ok", style: .cancel))
+        self.show(ac, sender: self)
     }
     
     func captchaDidFail() {
-        print("")
+        let ac = UIAlertController(title: "Failed!", message: "you have entered wrong captcha!", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Ok", style: .cancel))
+        self.show(ac, sender: self)
     }
     
     @IBOutlet weak var captchaView: UIView!
